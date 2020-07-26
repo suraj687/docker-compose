@@ -1,0 +1,7 @@
+version: '3'
+services:
+    web:
+       image: surajsurya/docker-t:14
+       ports:
+       - "3434:80"
+
